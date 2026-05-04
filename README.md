@@ -1,4 +1,4 @@
-# 🕸️ Network Science: Wikipedia Voting Network
+# Network Science: Wikipedia Voting Network
 
 > A full-stack network science project analysing the **Wikipedia Adminship Voting Network** — covering structural topology, random graph theory, community detection, failure propagation, opinion dynamics, and flow optimisation. Built in Python with NetworkX.
 
@@ -12,7 +12,7 @@
 
 ---
 
-## 📌 Overview
+## Overview
 
 This project applies theoretical and computational network science techniques to a real-world directed graph: the [Stanford SNAP Wikipedia Vote Network](https://snap.stanford.edu/data/wiki-Vote.html), where nodes are Wikipedia users and directed edges represent votes cast during adminship elections (7,115 nodes, 103,689 edges).
 
@@ -30,7 +30,7 @@ The notebook is a single end-to-end analysis covering seven interconnected topic
 
 ---
 
-## 📊 Key Results
+## Key Results
 
 | Analysis | Finding |
 |---|---|
@@ -46,7 +46,7 @@ The notebook is a single end-to-end analysis covering seven interconnected topic
 
 ---
 
-## 🗂️ Repository Structure
+## Repository Structure
 
 ```
 network-science-portfolio/
@@ -74,7 +74,7 @@ network-science-portfolio/
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1 · Clone the repository
 
@@ -155,7 +155,7 @@ A connected directed G(10, 40) graph is generated with random integer capacities
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Library | Version | Purpose |
 |---|---|---|
@@ -168,7 +168,7 @@ A connected directed G(10, 40) graph is generated with random integer capacities
 
 ---
 
-## 🔑 Design Decisions & Improvements
+## Design Decisions & Improvements
 
 Several improvements were made over a naive implementation:
 
@@ -182,7 +182,7 @@ Several improvements were made over a naive implementation:
 
 ---
 
-## 📚 References
+## References
 
 - Barabási, A.-L. (2016). *Network Science*. Cambridge University Press. [networksciencebook.com](http://networksciencebook.com)
 - Leskovec, J., Huttenlocher, D. & Kleinberg, J. (2010). Signed Networks in Social Media. *Proc. CHI 2010*. *(Wikipedia Vote dataset)*
@@ -195,7 +195,7 @@ Several improvements were made over a naive implementation:
 
 ---
 
-## 👤 Author
+## Author
 
 **Abir Alam Srabon**  
 BSc/MSc Student — Aston University, Birmingham  
