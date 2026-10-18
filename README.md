@@ -1,4 +1,4 @@
-# 🕸️ Network Science: The Wikipedia Adminship Voting Network
+# Network Science: The Wikipedia Adminship Voting Network
 
 > An end-to-end network analysis of who votes for whom in Wikipedia administrator elections: structure, influence, random-graph theory, communities, cascading failures, opinion dynamics and flow optimisation. Built in Python with NetworkX.
 
@@ -11,7 +11,7 @@
 
 ---
 
-## 📌 Key findings
+## Key findings
 
 | Analysis | Result |
 |---|---|
@@ -26,7 +26,7 @@
 
 ---
 
-## 📊 Selected charts
+## Selected charts
 
 **Heavy-tailed degree distributions** (log-log scale)
 
@@ -52,7 +52,7 @@ All 10 figures are in the repository root (`fig1` … `fig9`).
 
 ---
 
-## 🔬 What the notebook covers
+## What the notebook covers
 
 | Part | Topic | Techniques |
 |:---:|---|---|
@@ -66,7 +66,7 @@ All 10 figures are in the repository root (`fig1` … `fig9`).
 
 Part 2 includes an assignment task that asked students to **critically evaluate an AI-generated answer** (from ChatGPT) about measuring distances on disconnected networks. The notebook quotes the answer and assesses where it is and isn't correct.
 
-## 🗂️ Repository structure
+## Repository structure
 
 ```
 Network-Science-Project/
@@ -77,7 +77,7 @@ Network-Science-Project/
 └── README.md
 ```
 
-## ▶️ How to run
+## How to run
 
 ```bash
 git clone https://github.com/abir110/Network-Science-Project.git
@@ -88,12 +88,12 @@ jupyter lab network_science_portfolio.ipynb
 
 Run all cells. A full run takes around **10 minutes**, mostly the 200-realisation phase-transition sweep and the 500-trial cascade simulations. All randomness is seeded, so results are reproducible.
 
-## ⚠️ Notes
+## Notes
 
 - The degree-distribution slopes come from a least-squares fit on log-log frequencies. That shows a heavy tail, but it is not a formal power-law test.
 - Parts 3–5 run on a 100-user sample drawn by a hub-biased random walk, so their results describe the well-connected core of the network rather than all of it.
 
-## 📚 References
+## References
 
 - Leskovec, J., Huttenlocher, D. & Kleinberg, J. (2010). Signed networks in social media. *CHI 2010.* (dataset)
 - Barabási, A.-L. (2016). *Network Science.* Cambridge University Press.
